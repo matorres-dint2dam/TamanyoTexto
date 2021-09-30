@@ -1,0 +1,20 @@
+﻿<Window x:Name="TamanyoTexto" x:Class="Opacidad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Opacidad"
+        mc:Ignorable="d"
+        Title="TamanyoTexto" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="355*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="tecsto" HorizontalAlignment="Left" Margin="249,104,0,0" TextWrapping="Wrap" Text="TECSTO" VerticalAlignment="Top" Height="37" Width="127" Foreground="#FFB900FF" FontWeight="Bold" Grid.Column="1"/>
+        <RadioButton x:Name="peque" Tag="12" Content="Pequeño" HorizontalAlignment="Left" Margin="40,239,0,0" VerticalAlignment="Top" IsChecked="True" Checked="RadioButton_Checked" Grid.Column="1"/>
+        <RadioButton x:Name="mediano" Tag="20" Content="Mediano" HorizontalAlignment="Left" Margin="249,239,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" Grid.Column="1"/>
+        <RadioButton x:Name="grande" Tag="30"  Content="Grabde" HorizontalAlignment="Left" Margin="456,239,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" Grid.Column="1"/>
+
+    </Grid>
+</Window>
